@@ -381,4 +381,4 @@ export function getSdk<C>(requester: Requester<C>) {
   };
 }
 export type Sdk = ReturnType<typeof getSdk>;
-// Generated on 2021-12-17T02:33:06-03:00
+// Generated on 2021-12-17T02:42:05-03:00

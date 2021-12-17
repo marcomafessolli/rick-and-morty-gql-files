@@ -4,14 +4,22 @@
   "description": ".graphql and ts files for Rick and Morty Graphql API so you don't have to write them",
   "author": "Marco Antônio Mafessolli",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcomafessolli/rick-and-morty-gql-files.git"
+  },
+  "homepage": "https://github.com/marcomafessolli/rick-and-morty-gql-files",
+  "bugs": {
+    "url": "https://github.com/marcomafessolli/rick-and-morty-gql-files/issues"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
-    "generate": "graphql-codegen",
-    "build": "tsc"
+    "build": "graphql-codegen && tsc",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "graphql": "^16.1.0",
