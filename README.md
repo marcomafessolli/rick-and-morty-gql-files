@@ -18,8 +18,10 @@ npm install @marcomafessolli/rick-and-morty-gql-files
 
 ### Examples:
 
-- [`getSdk / requester with @urql/core`](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/utils/urql.server.ts)
-  <br>
+_@urql/core_
+
+[Urql requester with getSdk](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/utils/urql.server.ts)<br>
+[Urql requester in action](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/index.tsx)
 
 ### Contributing
 
