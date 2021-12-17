@@ -20,8 +20,11 @@ npm install @marcomafessolli/rick-and-morty-gql-files
 
 _@urql/core_
 
-[Urql requester with getSdk](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/utils/urql.server.ts)<br>
-[Urql requester in action](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/index.tsx)
+[creating urql requester with getSdk](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/utils/urql.server.ts)<br>
+[query characters using urql requester](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/index.tsx#L12)<br>
+[query chatacter using urql requester](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/characters/%24id.tsx#L27)
+
+Check [getSdk](https://github.com/marcomafessolli/rick-and-morty-gql-files/blob/main/docs/modules.md#getsdk) and [Requester](https://github.com/marcomafessolli/rick-and-morty-gql-files/blob/main/docs/modules.md#requester)for details.
 
 ### Contributing
 
