@@ -1,7 +1,7 @@
 {
   "name": "@marcomafessolli/rick-and-morty-gql-files",
-  "version": "1.0.0",
-  "description": ".graphql and ts files for Rick and Morty Graphql API so you don't have to write them",
+  "version": "1.0.1",
+  "description": "Types and operations for Rick and Morty Graphql API so you don't have to write them every time",
   "author": "Marco Antônio Mafessolli",
   "license": "MIT",
   "repository": {
@@ -18,8 +18,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "graphql-codegen && tsc",
-    "prepublishOnly": "npm run build"
+    "build": "graphql-codegen && tsc"
   },
   "dependencies": {
     "graphql": "^16.1.0",
