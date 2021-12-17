@@ -1,6 +1,6 @@
 {
   "name": "@marcomafessolli/rick-and-morty-gql-files",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Types and operations for Rick and Morty Graphql API so you don't have to write them every time",
   "author": "Marco Antônio Mafessolli",
   "license": "MIT",
