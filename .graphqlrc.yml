@@ -1,0 +1,16 @@
+schema: "src/gql/schema.graphql"
+documents: "src/gql/operations.graphql"
+extensions:
+  codegen:
+    generates:
+      ./src/generated/index.ts:
+        plugins:
+          - typescript
+          - typescript-operations
+          - typescript-generic-sdk
+          - time
+        config:
+            omitOperationSuffix: true
+            useTypeImports: true
+            dedupeFragments: true
+    

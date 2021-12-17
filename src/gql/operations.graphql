@@ -1,0 +1,104 @@
+# import { CharacterFilter, LocationFilter, EpisodeFilter } from './schema.graphql';
+
+query QueryCharacter($id: ID!) {
+  character(id: $id) {
+    ...CharacterFieldsFragment
+  }
+}
+
+query QueryCharacters($page: Int, $filter: FilterCharacter) {
+  characters(page: $page, filter: $filter) {
+    info {
+      ...InfoFieldsFragment
+    }
+    results {
+      ...CharacterFieldsFragment
+    }
+  }
+}
+
+query QueryCharactersByIds($ids: [ID!]!) {
+  charactersByIds(ids: $ids) {
+    ...CharacterFieldsFragment
+  }
+}
+
+query QueryLocation($id: ID!) {
+  location(id: $id) {
+    ...LocationFieldsFragment
+  }
+}
+
+query QueryLocations($page: Int, $filter: FilterLocation) {
+  locations(page: $page, filter: $filter) {
+    info {
+      ...InfoFieldsFragment
+    }
+    results {
+      ...LocationFieldsFragment
+    }
+  }
+}
+
+query QueryLocationsByIds($ids: [ID!]!) {
+  locationsByIds(ids: $ids) {
+    ...LocationFieldsFragment
+  }
+}
+
+query QueryEpisode($id: ID!) {
+  episode(id: $id) {
+    ...EpisodeFieldsFragment
+  }
+}
+
+query QueryEpisodes($page: Int, $filter: FilterEpisode) {
+  episodes(page: $page, filter: $filter) {
+    info {
+      ...InfoFieldsFragment
+    }
+    results {
+      ...EpisodeFieldsFragment
+    }
+  }
+}
+
+query QueryEpisodesByIds($ids: [ID!]!) {
+  episodesByIds(ids: $ids) {
+    ...EpisodeFieldsFragment
+  }
+}
+
+fragment CharacterFieldsFragment on Character {
+  id
+  name
+  status
+  species
+  type
+  gender
+  image
+  created
+}
+
+fragment EpisodeFieldsFragment on Episode {
+  id
+  name
+  air_date
+  episode
+  created
+}
+
+fragment LocationFieldsFragment on Location {
+  id
+  name
+  type
+  dimension
+  created
+}
+
+fragment InfoFieldsFragment on Info {
+  count
+  pages
+  next
+  prev
+}
