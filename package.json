@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": ".graphql and ts files for Rick and Morty Graphql API so you don't have to write them",
   "author": "Marco Antônio Mafessolli",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcomafessolli/rick-and-morty-gql-files.git"
