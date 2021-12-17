@@ -27,7 +27,6 @@
     "entryPoints": [
       "src/generated/index.ts"
     ],
-    "out": "docs",
-    "plugin": "typedoc-plugin-markdown"
+    "out": "docs"
   }
 }
