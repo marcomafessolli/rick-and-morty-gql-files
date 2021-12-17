@@ -8,7 +8,6 @@ extensions:
           - typescript
           - typescript-operations
           - typescript-generic-sdk
-          - time
         config:
             omitOperationSuffix: true
             useTypeImports: true

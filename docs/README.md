@@ -1,3 +1,5 @@
+@marcomafessolli/rick-and-morty-gql-files / [Exports](modules.md)
+
 <p>
   <a href="https://www.npmjs.com/package/@marcomafessolli/rick-and-morty-gql-files" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@marcomafessolli/rick-and-morty-gql-files.svg">
@@ -6,17 +8,17 @@
 
 Types and operations for Rick and Morty Graphql API so you don't have to write them every time. Powered by [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator)
 
-### Install
+---
+
+## Install
 
 ```sh
 npm install @marcomafessolli/rick-and-morty-gql-files
 ```
 
-### Documentation:
+## Types and operations available:
 
-[Go to documentation](https://github.com/marcomafessolli/rick-and-morty-gql-files/blob/main/docs/modules.md)
-
-<br>
+[Documentation](https://github.com/marcomafessolli/rick-and-morty-gql-files/docs/modules.md)
 
 ### Contributing
 

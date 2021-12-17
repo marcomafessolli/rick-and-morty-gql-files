@@ -1,6 +1,6 @@
 {
   "name": "@marcomafessolli/rick-and-morty-gql-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Types and operations for Rick and Morty Graphql API so you don't have to write them every time",
   "author": "Marco Antônio Mafessolli",
   "license": "MIT",
@@ -18,7 +18,9 @@
     "lib"
   ],
   "scripts": {
-    "build": "graphql-codegen && tsc"
+    "build": "tsc",
+    "generate-types": "graphql-codegen",
+    "generate-docs": "typedoc"
   },
   "dependencies": {
     "graphql": "^16.1.0",
@@ -27,12 +29,13 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^2.3.0",
-    "@graphql-codegen/time": "^3.1.0",
     "@graphql-codegen/typescript": "^2.4.1",
     "@graphql-codegen/typescript-generic-sdk": "^2.3.0",
     "@graphql-codegen/typescript-operations": "^2.2.1",
     "@graphql-codegen/typescript-resolvers": "^2.4.2",
     "@types/node": "^17.0.0",
+    "typedoc": "^0.22.10",
+    "typedoc-plugin-markdown": "^3.11.7",
     "typescript": "^4.5.4"
   }
 }
