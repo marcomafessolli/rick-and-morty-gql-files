@@ -24,7 +24,7 @@ _@urql/core_
 [query characters using urql requester](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/index.tsx#L12)<br>
 [query chatacter using urql requester](https://github.com/marcomafessolli/remix-graphql-loader-example/blob/main/app/routes/characters/%24id.tsx#L27)
 
-[getSdk](https://github.com/marcomafessolli/rick-and-morty-gql-files/blob/main/docs/modules.md#getsdk) documentation.
+Check [getSdk](https://marcomafessolli.github.io/rick-and-morty-gql-files/modules.html#getSdk) documentation for more information.
 
 ### Contributing
 
