@@ -14,7 +14,7 @@ npm install @marcomafessolli/rick-and-morty-gql-files
 
 ### Documentation:
 
-[Go to documentation](https://github.com/marcomafessolli/rick-and-morty-gql-files/blob/main/docs/modules.md)
+[Go to documentation](https://marcomafessolli.github.io/rick-and-morty-gql-files/)
 
 ### Examples:
 
